@@ -18,7 +18,7 @@ xhr.addEventListener('readystatechange', () => {
             pollAnswersContainer.appendChild(button);
 
             button.addEventListener('click', () => {
-                alert(`Спасибо, ваш голос зачитан!`);
+                alert('Спасибо, ваш голос засчитан!');
             });
         });
     }
